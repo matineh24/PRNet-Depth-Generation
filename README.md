@@ -45,7 +45,7 @@ The second way is to use [this file](https://github.com/matineh24/PRNet-Depth-Ge
 
 Finally create a folder to keep depth maps. change [these two lines](https://github.com/matineh24/PRNet-Depth-Generation/blob/48a94e498ab8385006565c649beb8737372ba4b3/create_depth.py#L17) with destpath and new created folder and run the python file to get the depth maps.
 
-
+After running this python file, copy the two final folders and add it to the data folder of the major project and you are ready to go with the major project.
 
 
 
