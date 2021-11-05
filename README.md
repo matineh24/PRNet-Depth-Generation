@@ -39,7 +39,7 @@ Then you can run create_depth.py but is is very time consuming. So a rescale is 
 The fist one is running the following script. The value of rescale_size is the new height of the images and the width will be rescaled with the same ratio to height changes.
 The folderpath here is the destpath of the previous step
 
-rescale.py folderpath rescale_size 
+> rescale.py folderpath rescale_size 
 
 The second way is to use [this file](https://github.com/matineh24/PRNet-Depth-Generation/blob/master/extract_faces.ipynb) to extract faces out of the images and save them with the dimention of 300\*300\*3. To make it work, simply change the path of the folder given in the notebook with the destpath from previous step.
 
